@@ -1,0 +1,41 @@
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.icon-apple-and-grapes-on-a-bowl {
+  width: 32px;
+  height: 32px;
+  background-position: 0 0;
+}
+.icon-boy-broad-smile {
+  width: 32px;
+  height: 32px;
+  background-position: -48px 0;
+}
+.icon-diet {
+  width: 32px;
+  height: 32px;
+  background-position: -96px 0;
+}
+.icon-family {
+  width: 32px;
+  height: 32px;
+  background-position: -144px 0;
+}
+.icon-fruit {
+  width: 32px;
+  height: 32px;
+  background-position: -192px 0;
+}
+.icon-grapes-and-pear-on-a-platter {
+  width: 32px;
+  height: 32px;
+  background-position: -240px 0;
+}
+.icon-photo-album {
+  width: 32px;
+  height: 32px;
+  background-position: -288px 0;
+}
+

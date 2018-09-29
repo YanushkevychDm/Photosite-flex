@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <link rel="shortcut icon" href="favikon.ico" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="./css/main.css">
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        
-        <title>Фотозйомка</title>
-
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="shortcut icon" href="favikon.ico" />
+      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+      <link rel="stylesheet" href="./css/main.css">
+      
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      
+      <title>Фотозйомка</title>
+  
       
     </head>
     <body>
@@ -52,7 +52,7 @@
         <div class="container">
     
           <h1 class="h1">Назва альбомy</h1>
-          <div class="hr-m"></div>
+          <div class="hr-s"></div>
             <p><section class="img-gallery-magnific">
               <div class="magnific-img">
                 <a class="image-popup-vertical-fit" href="https://unsplash.it/974/?random" title="9.jpg">
@@ -149,11 +149,13 @@
           </p>
         
         </div>
+        <div class="hr-s"></div>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
         <!-- нужно  -->
 
         <script src="js/main.js"></script>
+
         <script>
           $(document).ready(function(){
       $('.image-popup-vertical-fit').magnificPopup({
@@ -190,17 +192,27 @@
                 <div class="hr-xs"></div>
                 <div class="contact">
                     <div class="contact__info"> 
-                        <i class="social social--light fa">&#xf098;</i> +380 67-886-06-09
+                        <svg class="icon icon--small">
+                            <use xlink:href="svg/sprite.svg#icon-phone"></use>
+                        </svg>
+                       <span class="contact__address">  +380 67-886-06-09</span>
                     </div>
                     <div class="contact__info">
                         <!-- <a href="mailto:someone@yoursite.com"> -->
-                            <i class="social social--light fa">&#xf199;</i> e-mail: vlamelnik@gmail.com
+                            <svg class="icon icon--small">
+                                <use xlink:href="svg/sprite.svg#icon-envelop"></use>
+                            </svg>
+                            <span class="contact__address"> e-mail: vlamelnik@gmail.com</span>
                         <!-- </a>   -->
                     </div>
                     <div class="contact__info"> 
+                        <!-- <i class="social social--light fa">&#xf082;</i>  -->
+                        <svg class="icon icon--small">
+                            <use xlink:href="svg/sprite.svg#icon-facebook-square"></use>
+                        </svg>
                         <a href="https://www.facebook.com/vlamelnik?hc_ref=ARTZyOXtilzgCTKLxFUHsO18spYlsviy0QcoMSgS3x8n0SDBDFg3F4Ftg7eAt6oQQiM&fref=nf&__xts__[0]=68.ARATWGLKrnMjQ9mXY4ZK-bs-JRJ5fyA5jenrRZ3rxXJQUSsKrIP_nEEWwL3VhTacBuOoxhYqABd1bmQmnXb0z5icWz4rx5HGKJMGlNIfrxOWY9QdhJ1qX185cC_SOCuL-Q5qsbCETnKITQP9d9o82NUfv2xtgHA2i-onzmZsxtzDpSosP9ir&__tn__=C-R">
-                            <i class="social social--light fa">&#xf082;</i> /Володимир Мельник
-                        </a>
+                            <span class="contact__address">/Володимир Мельник</span>
+                        </a> 
                     </div>
                 </div>
             </div>
@@ -208,26 +220,25 @@
           <div class="two-columns__second--long">
               <div class="single-column">
                   <h4 class="h4 h4--light">РОЗДІЛИ</h4>
-                  <div><a href="">ГАЛЕРЕЯ</a> </div>                      
-                  <div><a href="">ЦІНИ</a> </div>                      
-                  <div><a href="">БЛОГ</a> </div>              
-                  <div><a href="">ВІДГУКИ</a> </div>             
-                  <div><a href=""> ФОТО-КНИГА</a> </div>                   
+                  <div><a class="link upper" href="">ГАЛЕРЕЯ</a> </div>                      
+                  <div><a class="link upper" href="">ЦІНИ</a> </div>                      
+                  <div><a class="link upper" href="">БЛОГ</a> </div>              
+                  <div><a class="link upper" href="">ВІДГУКИ</a> </div>             
+                  <div><a class="link upper" href=""> ФОТО-КНИГА</a> </div>                   
               </div>
               <div class="single-column">
                   <h4 class="h4 h4--light"> ВИДИ ФОТОЗЙОМКИ</h4>
-                  <div><a href="">ФОТОЗЙОМКА ВЕСІЛЛЯ</a> </div>                      
-                  <div><a href="">ФОТОЗЙОМКА LOVE STORY</a> </div>                      
-                  <div><a href="">ФОТОСЕСІЯ ДИТЯЧА</a> </div>              
-                  <div><a href="">СІМЕЙНА ФОТОСЕСІЯ</a>  </div>             
-                  <div><a href="">ПОРТЕРТ</a>  </div>  
+                  <div><a class="link upper" href="portfolio.html#child-photo">Дитячі фото</a> </div>                      
+                  <div><a class="link upper" href="portfolio.html#family-photo">Сімейні фото</a> </div>                      
+                  <div><a class="link upper" href="portfolio.html#still-photo">Натюрморт</a> </div>              
+                  <div><a class="link upper" href="portfolio.html#book-photo">Фотокнига</a>  </div>              
               </div>
           </div>
           <div class="hr-m"></div>
           <div class="hr"></div>
           <div class="cities">
-              <p>Всі права захищено</p>
-              <p>Сайт сторено на замовлення Володимира Мельника</p>
+              <p class="center">Всі права захищено</p>
+              <p class="center">Сайт створено на замовлення Володимира Мельника</p>
             
           </div>
           <div class="hr-xs"></div>
